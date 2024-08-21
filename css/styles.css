@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #f1faee;
@@ -25,6 +29,10 @@ a {
   color: inherit;
   cursor: pointer;
   color: #2a9d8f;
+}
+
+address {
+  font-style: normal;
 }
 
 .container {
@@ -62,17 +70,15 @@ a {
   justify-content: space-between;
 }
 .logo-company-text {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 26px;
   line-height: 30px;
-  letter-spacing: -0.1rem;
 }
 .logo-company-losung {
   color: #2a9d8f;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 24px;
   line-height: 32px;
-  letter-spacing: -0.1rem;
 }
 .nav-menu {
   display: flex;
@@ -103,4 +109,60 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 23px;
+}
+
+.main .container {
+  display: flex;
+  gap: 86px;
+  max-height: 672px;
+}
+
+/* -----------------------------------SECTION CARD---------------------------------- */
+
+.card {
+}
+.card-wrap {
+  background-color: #8acbbb;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 45px;
+  max-width: 482px;
+  border-radius: 32px;
+  color: #264653;
+}
+.card-title {
+  margin-bottom: 36px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 52px;
+}
+.card-text {
+  max-width: 316px;
+  margin-bottom: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.contacts {
+  font-family: "Open Sans", sans-serif;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.contacts-list-item {
+  display: flex;
+  align-items: center;
+}
+.contact-list-logo {
+}
+.contact-list-link {
+  line-height: 24px;
+  color: inherit;
+  margin-left: 26px;
+}
+
+.contact-list-address {
+  align-self: flex-start;
+  margin-left: 26px;
 }
