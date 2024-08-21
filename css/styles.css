@@ -34,6 +34,21 @@ a {
 address {
   font-style: normal;
 }
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #26465359;
+}
+
+label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+}
 
 .container {
   max-width: 1300px;
@@ -165,4 +180,17 @@ address {
 .contact-list-address {
   align-self: flex-start;
   margin-left: 26px;
+}
+
+.form {
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+.form-group {
+  margin-bottom: 38px;
+}
+.submit-btn {
 }
