@@ -1,0 +1,106 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f1faee;
+  color: #264653;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  color: #2a9d8f;
+}
+
+.container {
+  max-width: 1300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.container {
+}
+
+.header .container {
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  flex-grow: 1;
+}
+.logo-icon {
+  fill: #8acbbb;
+  height: 100%;
+}
+.logo-text-wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo-company-text {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: -0.1rem;
+}
+.logo-company-losung {
+  color: #2a9d8f;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.1rem;
+}
+.nav-menu {
+  display: flex;
+  align-self: start;
+}
+.nav-list {
+  display: flex;
+  gap: 18px;
+  margin-right: 18px;
+  align-items: center;
+}
+.nav-list-item {
+}
+.nav-list-link {
+}
+.sing-btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.sing-btn-link {
+  color: #f1faee;
+  display: flex;
+  background-color: #2a9d8f;
+  min-width: 124px;
+  width: 46px;
+  padding: 12px 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+}
